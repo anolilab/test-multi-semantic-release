@@ -1,8 +1,8 @@
 {
     "name": "msr-test-c",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "devDependencies": {
-        "msr-test-b": "workspace:*",
-        "msr-test-d": "workspace:*"
+        "msr-test-b": "1.0.0",
+        "msr-test-d": "1.0.0"
     }
 }
