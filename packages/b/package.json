@@ -1,11 +1,11 @@
 {
     "name": "msr-test-b",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "dependencies": {
-        "msr-test-a": "workspace:*"
+        "msr-test-a": "1.0.0"
     },
     "devDependencies": {
         "left-pad": "latest",
-        "msr-test-d": "workspace:*"
+        "msr-test-d": "1.0.0"
     }
 }
