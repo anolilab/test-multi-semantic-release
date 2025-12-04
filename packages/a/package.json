@@ -1,6 +1,6 @@
 {
     "name": "@test-semantic/msr-test-a",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "peerDependencies": {
         "left-pad": "*"
     }
