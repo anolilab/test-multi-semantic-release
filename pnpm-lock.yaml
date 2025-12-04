@@ -12,11 +12,11 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0(semantic-release@25.0.2)
       '@anolilab/semantic-release-pnpm':
-        specifier: 3.1.0
-        version: 3.1.0(yaml@2.8.2)
+        specifier: https://pkg.pr.new/anolilab/semantic-release/@anolilab/semantic-release-pnpm@239
+        version: https://pkg.pr.new/anolilab/semantic-release/@anolilab/semantic-release-pnpm@239(yaml@2.8.2)
       '@anolilab/semantic-release-preset':
         specifier: ^12.0.1
-        version: 12.0.1(@anolilab/semantic-release-pnpm@3.1.0(yaml@2.8.2))(@semantic-release/npm@13.1.2(semantic-release@25.0.2))(semantic-release@25.0.2)(yaml@2.8.2)
+        version: 12.0.1(@anolilab/semantic-release-pnpm@https://pkg.pr.new/anolilab/semantic-release/@anolilab/semantic-release-pnpm@239(yaml@2.8.2))(@semantic-release/npm@13.1.2(semantic-release@25.0.2))(semantic-release@25.0.2)(yaml@2.8.2)
       '@semantic-release/changelog':
         specifier: ^6.0.3
         version: 6.0.3(semantic-release@25.0.2)
@@ -85,20 +85,23 @@ packages:
     peerDependencies:
       semantic-release: '>=24'
 
-  '@anolilab/rc@3.1.0':
-    resolution: {integrity: sha512-v2lyA2sgmknxOGiqWvHuEr72y641oD49FJ6XnhEWe9n9Jb48qbkA3ndVFwcAR7Xq1VDPSjiRbB2u+AT7oHofRg==}
+  '@anolilab/rc@https://pkg.pr.new/anolilab/semantic-release/@anolilab/rc@b2b832da1509aec5763856eedae43267b9b8a25a':
+    resolution: {tarball: https://pkg.pr.new/anolilab/semantic-release/@anolilab/rc@b2b832da1509aec5763856eedae43267b9b8a25a}
+    version: 3.1.0
     engines: {node: ^22.14.0 || >=24.10.0}
 
   '@anolilab/semantic-release-clean-package-json@4.1.0':
     resolution: {integrity: sha512-KumzZ3zben/6U7WLZGBVdz/ZcBKD+1x9iAmP/uH6AyQXra7RS553Oqx5bOVekKGMpmHfxl49b//YZ3g5I9oRNw==}
     engines: {node: ^22.14.0 || >=24.10.0}
 
-  '@anolilab/semantic-release-pnpm@3.1.0':
-    resolution: {integrity: sha512-ibAvoCyl1mWIAZNu8xIA8N6QnumSTQRUtndg9pp1dYo7SpRWk0WO2stXz5lBHO5+oiThJvlm56LV4HRDVgOoag==}
+  '@anolilab/semantic-release-pnpm@https://pkg.pr.new/anolilab/semantic-release/@anolilab/semantic-release-pnpm@239':
+    resolution: {tarball: https://pkg.pr.new/anolilab/semantic-release/@anolilab/semantic-release-pnpm@239}
+    version: 3.1.0
     engines: {node: ^22.14.0 || >=24.10.0}
 
   '@anolilab/semantic-release-preset@12.0.1':
     resolution: {integrity: sha512-Psia1q7sqI2F7L8BFtHjEcIEUbqh5aHm17p60S7Do+ObVYvxtACubLVWMmiboF8dNlUTeLACQsY5Rgvj6ipkKw==}
+    version: 12.0.1
     engines: {node: ^22.14.0 || >=24.10.0}
     os: [darwin, linux, win32]
     peerDependencies:
@@ -1564,7 +1567,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@anolilab/rc@3.1.0(yaml@2.8.2)':
+  '@anolilab/rc@https://pkg.pr.new/anolilab/semantic-release/@anolilab/rc@b2b832da1509aec5763856eedae43267b9b8a25a(yaml@2.8.2)':
     dependencies:
       '@visulima/fs': 4.1.0(yaml@2.8.2)
       '@visulima/path': 2.0.5
@@ -1582,10 +1585,10 @@ snapshots:
     transitivePeerDependencies:
       - yaml
 
-  '@anolilab/semantic-release-pnpm@3.1.0(yaml@2.8.2)':
+  '@anolilab/semantic-release-pnpm@https://pkg.pr.new/anolilab/semantic-release/@anolilab/semantic-release-pnpm@239(yaml@2.8.2)':
     dependencies:
       '@actions/core': 1.11.1
-      '@anolilab/rc': 3.1.0(yaml@2.8.2)
+      '@anolilab/rc': https://pkg.pr.new/anolilab/semantic-release/@anolilab/rc@b2b832da1509aec5763856eedae43267b9b8a25a(yaml@2.8.2)
       '@semantic-release/error': 4.0.0
       '@visulima/fs': 4.1.0(yaml@2.8.2)
       '@visulima/package': 4.1.7
@@ -1600,7 +1603,7 @@ snapshots:
       - '@types/node'
       - yaml
 
-  '@anolilab/semantic-release-preset@12.0.1(@anolilab/semantic-release-pnpm@3.1.0(yaml@2.8.2))(@semantic-release/npm@13.1.2(semantic-release@25.0.2))(semantic-release@25.0.2)(yaml@2.8.2)':
+  '@anolilab/semantic-release-preset@12.0.1(@anolilab/semantic-release-pnpm@https://pkg.pr.new/anolilab/semantic-release/@anolilab/semantic-release-pnpm@239(yaml@2.8.2))(@semantic-release/npm@13.1.2(semantic-release@25.0.2))(semantic-release@25.0.2)(yaml@2.8.2)':
     dependencies:
       '@anolilab/semantic-release-clean-package-json': 4.1.0(yaml@2.8.2)
       '@semantic-release/changelog': 6.0.3(semantic-release@25.0.2)
@@ -1612,7 +1615,7 @@ snapshots:
       conventional-changelog-conventionalcommits: 9.1.0
       semantic-release: 25.0.2
     optionalDependencies:
-      '@anolilab/semantic-release-pnpm': 3.1.0(yaml@2.8.2)
+      '@anolilab/semantic-release-pnpm': https://pkg.pr.new/anolilab/semantic-release/@anolilab/semantic-release-pnpm@239(yaml@2.8.2)
       '@semantic-release/npm': 13.1.2(semantic-release@25.0.2)
     transitivePeerDependencies:
       - supports-color
