@@ -1,11 +1,11 @@
 {
-    "name": "msr-test-b",
+    "name": "@test-semantic/msr-test-b",
     "version": "1.0.0",
     "dependencies": {
-        "msr-test-a": "1.0.0"
+        "@test-semantic/msr-test-a": "workspace:*"
     },
     "devDependencies": {
-        "left-pad": "latest",
-        "msr-test-d": "1.0.0"
+        "left-pad": "*",
+        "@test-semantic/msr-test-d": "workspace:*"
     }
 }
