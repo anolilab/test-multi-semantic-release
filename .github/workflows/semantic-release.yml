@@ -57,4 +57,4 @@ jobs:
                   GIT_AUTHOR_EMAIL: "github-actions[bot]@users.noreply.github.com"
                   GIT_COMMITTER_NAME: "github-actions-shell"
                   GIT_COMMITTER_EMAIL: "github-actions[bot]@users.noreply.github.com"
-              run: "pnpm exec multi-semantic-release --debug"
+              run: "DEBUG=semantic-release-pnpm:verify-auth,semantic-release-pnpm:oidc-context pnpm exec multi-semantic-release"
