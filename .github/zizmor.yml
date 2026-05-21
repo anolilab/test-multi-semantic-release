@@ -1,0 +1,9 @@
+# Zizmor static analyzer config.
+# https://docs.zizmor.sh/configuration/
+
+rules:
+    unpinned-uses:
+        # Workflows with intentionally unpinned action references (typically
+        # org-internal callers or upstream-managed templates).
+        ignore:
+            - "semantic-release.yml"
