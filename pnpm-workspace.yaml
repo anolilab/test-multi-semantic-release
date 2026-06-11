@@ -1,6 +1,9 @@
 packages:
   - packages/*
 
+minimumReleaseAge: 1440
+trustPolicy: no-downgrade
+
 overrides:
   undici@<6.23.0: '>=6.23.0'
   undici@<6.24.0: '>=6.24.0'
